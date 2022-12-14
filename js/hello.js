@@ -11,10 +11,25 @@
  const material = new THREE.MeshNormalMaterial();
  const pill = new THREE.Mesh(geometry, material);
  const pill2 = new THREE.Mesh(geometry, material);
+ const pill3 = new THREE.Mesh(geometry, material);
+ const pill4 = new THREE.Mesh(geometry, material);
+ const pill5 = new THREE.Mesh(geometry, material);
+ const pill6 = new THREE.Mesh(geometry, material);
+
  scene.add(pill);
  scene.add(pill2);
+scene.add(pill3);
+scene.add(pill4);
+scene.add(pill5);
+scene.add(pill6);
+
  pill.position.x = 2;
  pill2.position.x = -2;
+ pill3.position.x = 4;
+ pill4.position.x = -4;
+ pill5.position.x = 6;
+ pill6.position.x = -6;
+
  camera.position.z = 5;
 
 
@@ -24,6 +39,14 @@
    pill2.rotation.z -= 0.01;
    pill.rotation.x += 0.01;
    pill.rotation.z += 0.01;
+    pill3.rotation.y += 0.01;
+   pill3.rotation.z += 0.01;
+    pill4.rotation.y -= 0.01;
+   pill4.rotation.z -= 0.01;
+    pill5.rotation.x -= 0.01;
+   pill5.rotation.z -= 0.01;
+   pill6.rotation.x += 0.01;
+   pill6.rotation.z += 0.01;
    renderer.render(scene, camera);
  }
  animate();
