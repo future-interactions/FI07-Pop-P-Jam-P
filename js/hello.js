@@ -23,12 +23,12 @@ scene.add(pill4);
 scene.add(pill5);
 scene.add(pill6);
 
- pill.position.x = 2;
- pill2.position.x = -2;
- pill3.position.x = 4;
- pill4.position.x = -4;
- pill5.position.x = 6;
- pill6.position.x = -6;
+ pill.position.x = THREE.MathUtils.randFloat(-6 , 6);
+ pill2.position.x = THREE.MathUtils.randFloat(-6, 6);
+ pill3.position.x = THREE.MathUtils.randFloat(-6 , 6);
+ pill4.position.x = THREE.MathUtils.randFloat(-6 , 6);
+ pill5.position.x = THREE.MathUtils.randFloat(-6 , 6);
+ pill6.position.x = THREE.MathUtils.randFloat(-6 , 6);
 
  camera.position.z = 5;
 
