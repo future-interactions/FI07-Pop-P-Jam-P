@@ -24,11 +24,17 @@ scene.add(pill5);
 scene.add(pill6);
 
  pill.position.x = THREE.MathUtils.randFloat(-6 , 6);
+pill.position.y = THREE.MathUtils.randFloat(-3 , 3);
  pill2.position.x = THREE.MathUtils.randFloat(-6, 6);
+pill2.position.y = THREE.MathUtils.randFloat(-3 , 3);
  pill3.position.x = THREE.MathUtils.randFloat(-6 , 6);
+pill3.position.y = THREE.MathUtils.randFloat(-3 , 3);
  pill4.position.x = THREE.MathUtils.randFloat(-6 , 6);
+pill4.position.y = THREE.MathUtils.randFloat(-3 , 3);
  pill5.position.x = THREE.MathUtils.randFloat(-6 , 6);
+pill5.position.y = THREE.MathUtils.randFloat(-3 , 3);
  pill6.position.x = THREE.MathUtils.randFloat(-6 , 6);
+pill6.position.y = THREE.MathUtils.randFloat(-3 , 3);
 
  camera.position.z = 5;
 
